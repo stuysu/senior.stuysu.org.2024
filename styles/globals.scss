@@ -12,5 +12,19 @@ a {
 }
 
 * {
+  background-color: #121212;
+  color: white;
   box-sizing: border-box;
+}
+
+.main-nav {
+  a {
+    padding-inline: 2em;
+  }
+  padding-block: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }

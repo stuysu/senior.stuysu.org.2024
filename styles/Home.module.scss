@@ -1,0 +1,41 @@
+.container {
+  // height: 100vh;
+  min-height: 100vh;
+  position: relative;
+  // padding: 0 0.5rem;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+}
+.content {
+  padding-bottom: 3.5rem;
+}
+.cardcontainer {
+  .cardstuyimg {
+    filter: opacity(50%);
+    width: 100%;
+  }
+  .cardlogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    filter: brightness(0) invert(1);
+    background-color: transparent;
+  }
+  position: relative;
+  width: 97%;
+  margin: auto;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
