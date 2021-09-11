@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import home from '../styles/Home.module.scss'
 
-const prefix = '/stuyjucoc-frontend';
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   return (
@@ -26,8 +26,8 @@ export default function Home() {
         </nav>
 
         <section className={home.cardcontainer}>
-          <img className={home.cardstuyimg} src="/stuyjucoc-frontend/stuy.jpg" />
-          <img className={home.cardlogo} src="/stuyjucoc-frontend/JuniorCaucusWhite.png" />
+          <img className={home.cardstuyimg} src={prefix + "stuy.jpg"}/>
+          <img className={home.cardlogo} src={prefix + "JuniorCaucusWhite.png"}/>
         </section>
 
         <footer className={home.footer}>

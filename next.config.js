@@ -1,11 +1,7 @@
-// const isProd = process.env.NODE_ENV === 'production'
-
 module.exports = {
   reactStrictMode: true,
-  // // basePath: process.env.NODE_ENV!=="development"?"":"/stuyjucoc-frontend",
-  // assetPrefix: isProd ? 'https://cdn.mydomain.com/' : '',
-  basePath: '/stuyjucoc-frontend',
-  assetPrefix: '/stuyjucoc-frontend',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
   images: {
     loader: "imgix",
     path: "",
