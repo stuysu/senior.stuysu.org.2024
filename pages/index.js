@@ -26,8 +26,8 @@ export default function Home() {
         </nav>
 
         <section className={home.cardcontainer}>
-          <img className={home.cardstuyimg} src={prefix + "stuy.jpg"}/>
-          <img className={home.cardlogo} src={prefix + "JuniorCaucusWhite.png"}/>
+          <img className={home.cardstuyimg} src={prefix + "/stuy.jpg"}/>
+          <img className={home.cardlogo} src={prefix + "/JuniorCaucusWhite.png"}/>
         </section>
 
         <footer className={home.footer}>
