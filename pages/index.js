@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import home from '../styles/Home.module.scss'
 
+const prefix = '/stuyjucoc-frontend';
+
 export default function Home() {
   return (
     <div className={home.container}>
@@ -24,8 +26,8 @@ export default function Home() {
         </nav>
 
         <section className={home.cardcontainer}>
-          <img className={home.cardstuyimg} src="/stuy.jpg" />
-          <img className={home.cardlogo} src="/JuniorCaucusWhite.png" />
+          <img className={home.cardstuyimg} src="/stuyjucoc-frontend/stuy.jpg" />
+          <img className={home.cardlogo} src="/stuyjucoc-frontend/JuniorCaucusWhite.png" />
         </section>
 
         <footer className={home.footer}>
