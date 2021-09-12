@@ -2,7 +2,7 @@ const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
   reactStrictMode: true,
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  basePath:  !debug ? 'https://pserb.github.io/stuyjucoc-frontend/' : '',
   assetPrefix: !debug ? 'https://pserb.github.io/stuyjucoc-frontend/' : '',
   images: {
     loader: "imgix",
