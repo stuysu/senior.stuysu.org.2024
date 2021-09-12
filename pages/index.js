@@ -2,11 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import home from '../styles/Home.module.scss'
 
-console.log(process.env.NEXT_PUBLIC_BASE_PATH)
-
 // const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
+  console.log(process.env.NEXT_PUBLIC_BASE_PATH)
   return (
     <div className={home.container}>
       <Head>
