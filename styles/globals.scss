@@ -15,11 +15,17 @@ a {
   background-color: #121212;
   color: white;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .main-nav {
   a {
     padding-inline: 2em;
+  }
+  .mobile-nav-burger {
+    font-size: 1.2em;
+    display: block;
+    margin-top: 10px;
   }
   padding-block: 1em;
   display: flex;
@@ -30,6 +36,88 @@ a {
   font-family:  Helvetica Neue, Helvetica;
   font-weight: bold;
 }
+@media (max-width: 1100px) {
+  .main-nav {
+    font-size: 18px;
+  }
+}
+@media (max-width: 830px) {
+  .main-link {
+    display: none;
+  }
+  .mobile-menu-toggle {
+    display: block !important;
+  }
+  .main-nav {
+    a {
+      padding-block: 2em;
+    }
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    // display: none;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+  }
+}
+.mobile-menu-toggle span {
+  display: block;
+	width: 33px;
+	height: 4px;
+	margin-bottom: 5px;
+	position: relative;
+	
+	background: #f3f3f3;
+	border-radius: 3px;
+  transform: translate(0%, 50%);
+	
+	z-index: 1;
+	
+	transform-origin: 4px 0px;
+	
+	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+				background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+				opacity 0.55s ease;
+}
+.input {
+  opacity: 0;
+  width: 33px;
+  height: 24px;
+  transform: translate(107%);
+  z-index: 2;
+}
+.input:checked {
+  .main-nav {
+    display: none;
+  }
+}
+.mobile-menu-toggle span:first-child
+	{
+	transform-origin: 0% 0%;
+	}
+
+	.mobile-menu-toggle span:nth-last-child(2)
+	{
+	transform-origin: 0% 100%;
+	}
+	.input:checked ~ .mobile-menu-toggle span
+	{
+	opacity: 1;
+	transform: rotate(25deg) translate(-3px, -7px);
+	background: #3F8FDE;
+	}
+	.input:checked ~ .mobile-menu-toggle span:nth-last-child(3)
+	{
+	opacity: 0;
+	transform: rotate(0deg) scale(0.2, 0.2);
+	}
+	.input:checked ~ .mobile-menu-toggle span:nth-last-child(2)
+	{
+	transform: rotate(-15deg) translate(0, -1px);
+	}
 .footer {
   position: absolute;
   bottom: 0;
@@ -40,6 +128,11 @@ a {
   justify-content: center;
   align-items: center;
   font-family:  Helvetica Neue, Helvetica;
+}
+@media (max-width: 500px) {
+  .footer {
+    font-size: 12px;
+  }
 }
 .text-center {
   text-align: center;

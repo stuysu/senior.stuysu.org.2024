@@ -29,3 +29,12 @@
   width: 97%;
   margin: auto;
 }
+@media (max-width: 1100px) {
+  .cardcontainer {
+    .cardstuyimg {
+      height: 60vh;
+      width: auto;
+      transform: translate(-35%);
+    }
+  }
+}
