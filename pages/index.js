@@ -3,6 +3,7 @@ import Head from 'next/head'
 import home from '../styles/Home.module.scss'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import getImg from '../lib/prefix'
 
 // const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
@@ -16,7 +17,7 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Stuyvesant High School Junior Caucus" />
-        <link rel="shortcut icon" href="./static/JuniorCaucusWhite.png" />
+        <link rel="shortcut icon" href={getImg("/JuniorCaucusWhite.png")} />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       </Head>
 
@@ -24,8 +25,8 @@ export default function Home() {
         <Navbar />
 
         <section className={home.cardcontainer}>
-          <img className={home.cardstuyimg} src="./static/stuy.jpg"/>
-          <img className={home.cardlogo} src="./static/JuniorCaucusWhite.png"/>
+          <img className={home.cardstuyimg} src={getImg("/stuy.jpg")} />
+          <img className={home.cardlogo} src={getImg("/JuniorCaucusWhite.png")} />
         </section>
 
         <Footer />
