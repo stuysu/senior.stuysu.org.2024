@@ -18,6 +18,11 @@ a {
   // overflow-x: hidden;
 }
 .main-nav {
+	.socials {
+		a {
+			padding-inline: 1em;
+		}
+	}
   a {
     padding-inline: 2em;
   }
@@ -43,6 +48,11 @@ a {
     display: none;
   }
   .mobile-nav {
+	  .socials {
+		  a {
+			  padding-right: 0.7em;
+		  }
+	  }
 		.nav-title-m a {
 			img {
 				margin-right: 2rem;

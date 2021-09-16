@@ -7,7 +7,11 @@ export default function Navbar({ }) {
       <Link className="main-link" href="/newsletters"><a>Newsletters</a></Link>
       <Link className="main-link" href="/opportunities"><a>Opportunities</a></Link>
       <Link className="main-link" href="/about"><a>About</a></Link>
-      <a>Logo Logo Logo</a>
+      <div className="socials">
+        <a href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
     </nav>
 
     <nav className="mobile-nav" role="navigation">
@@ -21,7 +25,11 @@ export default function Navbar({ }) {
             <Link className="main-link" href="/newsletters"><li><a>Newsletters</a></li></Link>
             <Link className="main-link" href="/opportunities"><li><a>Opportunities</a></li></Link>
             <Link className="main-link" href="/about"><li><a>About</a></li></Link>
-            <li><a>Logo Logo Logo</a></li>
+            <li className="socials">
+              <a href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
           </ul>
       </div>
       {/* <div className="nav-title-m" id="nav-m">
