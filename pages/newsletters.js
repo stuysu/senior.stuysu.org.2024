@@ -1,17 +1,17 @@
-import newsletters from '../styles/Newsletters.module.scss'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Head from "next/head";
 
-const Newsletters = () => {
+import newsletters from "../styles/Newsletters.module.scss";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
+export default function Newsletters() {
   return (
-    <div className="container">
-        <Navbar />
+    <>
+      <Head>
+        <title>Newsletters | Junior Caucus</title>
+      </Head>
 
-        <h1 className={"text-center" + " " + newsletters.title}>Newsletters</h1>
-
-        <Footer />
-    </div>
-  )
+      <h1 className="text-center title">Newsletters</h1>
+    </>
+  );
 }
-
-export default Newsletters;

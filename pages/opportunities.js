@@ -1,17 +1,17 @@
-import opportunities from '../styles/Opportunities.module.scss'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Head from "next/head";
 
-const Opportunities = () => {
+import opportunities from "../styles/Opportunities.module.scss";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
+export default function Opportunities() {
   return (
-    <div className="container">
-        <Navbar />
+    <>
+      <Head>
+        <title>Opportunities | Junior Caucus</title>
+      </Head>
 
-        <h1 className={"text-center" + " " + opportunities.title}>Opportunities</h1>
-
-        <Footer />
-    </div>
-  )
+      <h1 className="text-center title">Opportunities</h1>
+    </>
+  );
 }
-
-export default Opportunities;

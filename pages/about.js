@@ -1,17 +1,17 @@
-import about from '../styles/About.module.scss'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Head from "next/head";
 
-const About = () => {
+import about from "../styles/About.module.scss";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
+export default function About() {
   return (
-    <div className="container">
-        <Navbar />
+    <>
+      <Head>
+        <title>About | Junior Caucus</title>
+      </Head>
 
-        <h1 className={"text-center" + " " + about.title}>About</h1>
-
-        <Footer />
-    </div>
-  )
+      <h1 className="text-center title">About</h1>
+    </>
+  );
 }
-
-export default About;
