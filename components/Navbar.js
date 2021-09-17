@@ -9,9 +9,9 @@ export default function Navbar({ }) {
       <Link className="main-link" href="/opportunities"><a>Opportunities</a></Link>
       <Link className="main-link" href="/about"><a>About</a></Link>
       <div className={navbar.socials}>
-        <a href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i></a>
       </div>
     </nav>
 
@@ -22,14 +22,14 @@ export default function Navbar({ }) {
           <span></span>
           <span></span>
           <ul id={navbar.menu}>
-            <Link className="main-link" href="/"><li><a>Home</a></li></Link>
-            <Link className="main-link" href="/newsletters"><li><a>Newsletters</a></li></Link>
-            <Link className="main-link" href="/opportunities"><li><a>Opportunities</a></li></Link>
-            <Link className="main-link" href="/about"><li><a>About</a></li></Link>
+            <Link className="main-link" passHref href="/"><li><a>Home</a></li></Link>
+            <Link className="main-link" passHref href="/newsletters"><li><a>Newsletters</a></li></Link>
+            <Link className="main-link" passHref href="/opportunities"><li><a>Opportunities</a></li></Link>
+            <Link className="main-link" passHref href="/about"><li><a>About</a></li></Link>
             <li className={navbar.socials}>
-              <a href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a>
-              <a href="https://www.facebook.com/" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i></a>
               </li>
           </ul>
       </div>

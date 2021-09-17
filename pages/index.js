@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import getImg from "../lib/prefix";
 import home from "../styles/Home.module.scss";
