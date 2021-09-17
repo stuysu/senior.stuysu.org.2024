@@ -1,4 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# junior.stuysu.org
 
-## Repo for the Stuyvesant Junior Caucus Website
-Visit the site [here](https://stuysu.github.io/stuyjucoc-frontend/)
+Frontend for the Junior Caucus website developed with Next.js
