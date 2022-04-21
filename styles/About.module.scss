@@ -2,3 +2,25 @@
     font-size: 70px;
     font-weight: bold;
 }
+
+.department {
+    margin: 0px 5vw;
+    
+    h1 {
+        margin: 0px;
+    }
+
+    hr {
+        margin-bottom: 3vh;
+    }
+
+    .profilesContainer {
+        display: flex;
+        flex-wrap: wrap;
+        & > div {
+            margin-right: 3vw;
+            margin-bottom: 3vw;
+        }
+
+    }
+}
