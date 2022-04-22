@@ -8,7 +8,7 @@ export default function Profile({name, imagePath, facebook, instagram, github, e
         <>
             <div className={profile.profileContainer}>
                 <div className={profile.innerContainer}>
-                    <img className={profile.image} src={getImg(imagePath)}></img>
+                <img className={profile.image} src={imagePath ? getImg(imagePath) : getImg("/Default_pfp.jpeg")}></img>
                     
 
                     <div className={profile.textContainer}>
