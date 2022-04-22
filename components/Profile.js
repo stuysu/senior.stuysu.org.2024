@@ -17,10 +17,10 @@ export default function Profile({name, imagePath, facebook, instagram, github, e
                     </div>
                     
                     <div className={profile.iconsContainer}>
-                        {facebook && <a target="_blank" href={facebook}><FaFacebookF/></a>}
-                        {instagram && <a target="_blank" href={instagram}><FaInstagram/></a>}
-                        {github && <a target="_blank" href={github}><FaGithub/></a>}
-                        {email && <a target="_blank" href={"mailto:" + email}><MdEmail/></a>}
+                        {facebook && <a target="_blank" rel="noreferrer" href={facebook}><FaFacebookF/></a>}
+                        {instagram && <a target="_blank" rel="noreferrer" href={instagram}><FaInstagram/></a>}
+                        {github && <a target="_blank" rel="noreferrer" href={github}><FaGithub/></a>}
+                        {email && <a target="_blank" rel="noreferrer" href={"mailto:" + email}><MdEmail/></a>}
                     </div>
                     
                 </div>
