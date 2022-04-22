@@ -20,7 +20,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -30,7 +30,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -41,7 +41,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -51,7 +51,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -61,7 +61,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -83,7 +83,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -104,7 +104,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -114,7 +114,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -137,7 +137,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -147,7 +147,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
@@ -157,7 +157,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
-        imagePath="../Default_pfp.jpeg"
+        imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
         github="FILL HERE"
