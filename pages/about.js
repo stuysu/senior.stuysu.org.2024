@@ -20,6 +20,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -30,6 +31,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -38,9 +40,9 @@ export default function About() {
         >
         </Profile>
         
-
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -51,6 +53,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -61,6 +64,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -83,6 +87,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -104,6 +109,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -114,6 +120,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -137,6 +144,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -147,6 +155,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"
@@ -157,6 +166,7 @@ export default function About() {
 
         <Profile
         name="Andrey Sokolov"
+        job = "President"
         imagePath="/Default_pfp.jpeg"
         facebook="https://www.facebook.com/profile.php?id=100037622327482"
         instagram="FILL HERE"

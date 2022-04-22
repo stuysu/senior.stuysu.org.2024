@@ -3,7 +3,7 @@ import profile from '../styles/Profile.module.scss'
 import { FaFacebookF, FaInstagram, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
-export default function Profile({name, imagePath, facebook, instagram, github, email}) {
+export default function Profile({name, job, imagePath, facebook, instagram, github, email}) {
     return (
         <>
             <div className={profile.profileContainer}>
@@ -13,7 +13,7 @@ export default function Profile({name, imagePath, facebook, instagram, github, e
 
                     <div className={profile.textContainer}>
                         <h2 className={profile.text}>{name}</h2>
-                        <h3 className={profile.text}>President</h3>
+                        <h3 className={profile.text}>{job}</h3>
                     </div>
                     
                     <div className={profile.iconsContainer}>
