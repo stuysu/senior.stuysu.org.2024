@@ -1,6 +1,6 @@
 # junior.stuysu.org
 
-Frontend for the Junior Caucus website developed with Next.js
+Repo for the Junior Caucus website developed with Next.js
 
 To start a local production server, do the following:
 
