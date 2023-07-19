@@ -1,0 +1,15 @@
+.striped_background {
+  background: linear-gradient(
+    10deg,
+    #e5d6ff,
+    #e5d6ff 37.5%,
+    #a193f2 37.6%,
+    #a193f2 42.5%,
+    #3f3194 42.6%,
+    #3f3194 57.5%,
+    #a193f2 57.6%,
+    #a193f2 62.5%,
+    #e5d6ff 62.6%,
+    #e5d6ff
+  );
+}
