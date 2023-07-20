@@ -10,7 +10,7 @@ export default function MemberDepartment({ name, members }) {
             src="/about_us_background.svg"
             className="absolute drop-shadow-lg w-[544px] h-[45px]"
           />
-          
+
           <p className="absolute left-[20px] font-link font-bold text-[25px] text-[#45379D] underline top-[22.5px] -translate-y-1/2">
             {name}
           </p>

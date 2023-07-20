@@ -74,9 +74,7 @@ export default function Home() {
           <p className="text-center font-link text-[25px] text-[#45379D] underline mb-[15px]">
             Announcements
           </p>
-          <div className="bg-white ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
-            
-          </div>
+          <div className="bg-white ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]"></div>
         </div>
       </div>
     </div>
