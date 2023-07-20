@@ -6,7 +6,7 @@ export default function Navbar() {
   let [hamburgerOpened, setHamburgerOpened] = useState(false);
 
   return (
-    <div className="bg-[#4B38BB] lg:h-[82px] h-[48px] w-[screen] font-link lg:text-[20px] text-[min(16px,2vw)]">
+    <div className="bg-[#4B38BB] lg:h-[82px] h-[48px] w-[screen] font-link lg:text-[20px] text-[14px]">
       <img
         src="/caucus_logo_bw.png"
         className="
@@ -36,15 +36,18 @@ export default function Navbar() {
         lg:flex
         hidden
         
-        absolute right-[20px] top-[41px] -translate-y-1/2
+        absolute right-[35px] top-[41px] -translate-y-1/2
          
         text-[#CCB1F8] child:ml-[35px]"
       >
-        <a>Announcements</a>
+        {/*<a>Announcements</a>
         <a>Resources</a>
         <a>Events</a>
         <a>Team</a>
-        <a>Calendar</a>
+        <a>Calendar</a>*/}
+
+        <a href="/">Home</a>
+        <a href="/team">Team</a>
       </div>
 
       {/*hamburger*/}
@@ -61,13 +64,13 @@ export default function Navbar() {
         z-[100]
 
         text-white
-        absolute top-[48px]
+        absolute
 
         child:h-[8vw] child:w-screen child:bg-[#A193F2] child-hover:bg-[#9a8af6] child:drop-shadow
         
-        child:child:absolute child:child:left-[50vw] child:child:-translate-x-1/2 child:child:top-[4vw] child:child:-translate-y-1/2"
+        child:child:left-[50vw] child:child:-translate-x-1/2 child:child:-translate-y-1/2"
       >
-        <div>
+        {/*<div>
           <a>Announcements</a>
         </div>
         <div>
@@ -81,7 +84,21 @@ export default function Navbar() {
         </div>
         <div>
           <a>Calendar</a>
-        </div>
+        </div>*/}
+
+        {/*<a>Announcements</a>
+        <a>Resources</a>
+        <a>Events</a>
+        <a>Team</a>
+        <a>Calendar</a>*/}
+
+        <a href="/" className="absolute top-[48px]">
+          <div className="absolute top-[4vw]">Home</div>
+        </a>
+
+        <a href="/team" className="absolute top-[calc(48px+8vw)]">
+          <div className="absolute top-[4vw]">Team</div>
+        </a>
       </div>
 
       <img

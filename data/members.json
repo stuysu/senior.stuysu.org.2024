@@ -6,13 +6,13 @@
         "name": "Anthony Chen",
         "title": "President",
         "bio": "I almost passed out from Citi Biking across the Brooklyn Bridge.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/anthony.png"
       },
       {
         "name": "Zidane Karim",
         "title": "President",
         "bio": "I am really excited to play Marvel Snap with Mr. Chew!",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/zidane.jpeg"
       }
     ]
   },
@@ -23,13 +23,13 @@
         "name": "Joseph Mei",
         "title": "Chief of Staff",
         "bio": "My favorite hobby is sleeping on the couch and waking up with chronic back pain.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/joseph.jpg"
       },
       {
         "name": "Mehruba Tithi",
         "title": "Chief of Staff",
         "bio": "I could spend hours looking at pictures of views and the sky. ",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/mehruba.jpg"
       }
     ]
   },
@@ -40,7 +40,7 @@
         "name": "Simon Shkolnik",
         "title": "IT Director",
         "bio": "Mr. Ramirez is my personal hero.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/simon.jpeg"
       }
     ]
   },
@@ -51,19 +51,19 @@
         "name": "Kaitlin Tan",
         "title": "Director of Graphic Design",
         "bio": "I like to read fantasy books and I enjoy writing in my free time. ",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/kaitlin.jpeg"
       },
       {
         "name": "Dylan Chin",
         "title": "Director of Graphic Design",
         "bio": "One fun hobby I have is fish-keeping! Shrimp turn pink when they die.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/dylan.png"
       },
       {
         "name": "Rabab Chowdhury",
         "title": "Director of Video Editing",
         "bio": "I once fell into a hair crisis and it got to the point where I had to cover it up with a beanie every day for the second half of sophomore year.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/rabab.jpeg"
       }
     ]
   },
@@ -74,19 +74,19 @@
         "name": "Bishesh Shah",
         "title": "Events Director",
         "bio": "My favorite holiday is Halloween and in the past I have been Lightning McQueen, a tree, and Kylo Ren!",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/bishesh.jpeg"
       },
       {
         "name": "Ziqi Lin",
         "title": "Events Director",
         "bio": "I really like playing badminton with my friends.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/ziqi.JPG"
       },
       {
         "name": "Srinity Rijal",
         "title": "Events Director",
         "bio": "I like to make music🎵",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/sriniti.jpg"
       }
     ]
   },
@@ -97,19 +97,19 @@
         "name": "Monica Lai",
         "title": "Outreach Director",
         "bio": "One fun fact about me is that I can play guitar and am currently learning how to play ukelele, too!",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/monica.jpeg"
       },
       {
         "name": "Jovanna Wu",
         "title": "Outreach Director",
         "bio": "I love to watch all types of movies but I can never finish a show. ",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/jovanna.PNG"
       },
       {
         "name": "Donghyun Kang",
         "title": "Outreach Director",
         "bio": "I got malaria five times. I am excited to socialize more my friends and enjoy the last year of school. Watching movies, going to shows & concerts ",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/donghyun.jpg"
       }
     ]
   },
@@ -120,19 +120,19 @@
         "name": "Eugene Park",
         "title": "Finance Director",
         "bio": "I’m excited to be a senior.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/eugene.jpg"
       },
       {
         "name": "Pranjal Modi",
         "title": "Finance Director",
         "bio": "My favorite hobbies are skiing and ice skating!",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/pranjal.jpg"
       },
       {
         "name": "Gordon Tsang",
         "title": "Finance Director",
         "bio": "My favorite show is The Office!",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/gordon.jpeg"
       }
     ]
   },
@@ -143,19 +143,19 @@
         "name": "Hellen Luo",
         "title": "Internals Director",
         "bio": "I love astronomy!",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/hellen.jpeg"
       },
       {
         "name": "Elaine Wong",
         "title": "Internals Director",
         "bio": "One fun fact about me is that I have a cat named spinach.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/elaine.jpg"
       },
       {
         "name": "Mia Haas",
         "title": "Internals Director",
         "bio": "I am really excited for the upcoming girls soccer season.",
-        "image": "/member_images/simon_shkolnik.jpg"
+        "image": "/member_images/mia.png"
       }
     ]
   }

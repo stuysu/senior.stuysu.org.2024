@@ -13,9 +13,9 @@ export default function Home() {
       <div className="relative lg:min-h-[500px]">
         <img
           src="/about_us_background.svg"
-          className="absolute drop-shadow-lg lg:w-[544px] w-[300px] lg:h-[45px] h-[35px] top-[45px] lg:left-[27vw] left-[50vw] -translate-y-1/2 -translate-x-1/2"
+          className="absolute drop-shadow-lg lg:w-[544px] w-[300px] lg:h-[45px] h-[35px] top-[45px] lg:left-[23vw] left-[50vw] -translate-y-1/2 -translate-x-1/2"
         />
-        <p className="absolute font-link lg:text-[30px] text-[17px] text-[#45379D] underline top-[45px] lg:left-[calc(27vw-180px)] left-[calc(50vw-90px)] -translate-y-1/2 -translate-x-1/2">
+        <p className="absolute font-link lg:text-[30px] text-[17px] text-[#45379D] underline top-[45px] lg:left-[calc(23vw-180px)] left-[calc(50vw-90px)] -translate-y-1/2 -translate-x-1/2">
           About Us
         </p>
 
@@ -49,8 +49,9 @@ export default function Home() {
       </HorizontalRuling>
 
       <div
-        className={`flex items-center pt-[15px] pb-[45px] ${styles.striped_background}`}
+        className={`flex justify-center items-center pt-[20px] pb-[45px] ${styles.striped_background}`}
       >
+        {/*
         <div className="relative w-[50vw]">
           <p className="text-center font-link text-[25px] text-[#45379D] underline mb-[15px]">
             Announcements
@@ -66,6 +67,15 @@ export default function Home() {
           </p>
           <div className="bg-white ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl w-[45vw] h-[45vw]">
             Calendar.
+          </div>
+        </div>*/}
+
+        <div className="relative lg:w-[50vw] w-[72.5vw]">
+          <p className="text-center font-link text-[25px] text-[#45379D] underline mb-[15px]">
+            Announcements
+          </p>
+          <div className="bg-white ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
+            
           </div>
         </div>
       </div>
