@@ -6,7 +6,7 @@ export default function MemberCard({ name, title, image, bio }) {
       </p>
 
       <div className="absolute w-[310px] h-[310px] overflow-hidden">
-        <img className="rounded-lg object-cover hover:opacity-0" src={image} />
+        <img className="rounded-lg object-cover hover:opacity-0" src={/*image*/ "/missing.png"} />
       </div>
 
       <div className="absolute left-[15px] top-[312px] text-[#45379D]">

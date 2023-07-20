@@ -25,7 +25,7 @@ export default function Navbar() {
       lg:translate-x-0 -translate-x-1/2
       lg:top-[41px] top-[24px]
       -translate-y-1/2
-      text-white underline"
+      text-white"
       >
         Stuyvesant Senior Caucus
       </a>

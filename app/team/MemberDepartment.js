@@ -21,8 +21,8 @@ export default function MemberDepartment({ name, members }) {
 
       <div className="flex flex-wrap justify-center pt-[50px]">
         {members.map((member, i) => (
-          <div className="mx-[40px]">
-            <MemberCard {...member} key={i} />
+          <div className="mx-[40px]" key={i}>
+            <MemberCard {...member} />
           </div>
         ))}
       </div>
