@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const repo = 'senior.stuysu.org'
+const assetPrefix = `/${repo}/`
+const basePath = `/${repo}`
+
+const nextConfig = {
+    output: 'export'
+};
 
 module.exports = nextConfig;
