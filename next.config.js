@@ -4,8 +4,8 @@ const assetPrefix = `/${repo}/`
 const basePath = `/${repo}`
 
 const nextConfig = {
-    assetPrefix,
-    basePath
+    assetPrefix: assetPrefix,
+    basePath: basePath
 };
 
 module.exports = nextConfig;
