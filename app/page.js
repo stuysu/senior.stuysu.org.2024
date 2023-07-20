@@ -10,12 +10,12 @@ export default function Home() {
         className="w-screen h-[40vw] object-cover"
       />
 
-      <div className="relative lg:min-h-[500px]">
+      <div className="relative lg:min-h-[500px] lg:pt-[70px] pt-0">
         <img
           src="/about_us_background.svg"
-          className="absolute drop-shadow-lg lg:w-[544px] w-[300px] lg:h-[45px] h-[35px] top-[45px] lg:left-[23vw] left-[50vw] -translate-y-1/2 -translate-x-1/2"
+          className="absolute drop-shadow-lg lg:w-[544px] w-[300px] lg:h-[45px] h-[35px] lg:top-[115px] top-[45px] lg:left-[23vw] left-[50vw] -translate-y-1/2 -translate-x-1/2"
         />
-        <p className="absolute font-link lg:text-[30px] text-[17px] text-[#45379D] underline top-[45px] lg:left-[calc(23vw-180px)] left-[calc(50vw-90px)] -translate-y-1/2 -translate-x-1/2">
+        <p className="absolute font-link lg:text-[30px] text-[17px] text-[#45379D] underline lg:top-[115px] top-[45px] lg:left-[calc(23vw-180px)] left-[calc(50vw-90px)] -translate-y-1/2 -translate-x-1/2">
           About Us
         </p>
 
@@ -24,19 +24,7 @@ export default function Home() {
         lg:pl-[5vw] px-[8vw] lg:w-[50vw] w-screen pt-[80px] pb-[30px]
         text-center text-[#3F3194] lg:text-[20px] text-[15px]"
         >
-          Four score and seven years ago, I was not born. But a new ruler formed
-          then — 1936 began with the crowning of King Edward VIII. I'm Zidane
-          Karim, and I believe I have what it takes to be Senior Caucus
-          co-president.
-          <br />
-          <br />
-          My personal goals are making sure everyone's voice is heard, whether
-          that ranges from the morning announcements, to important decisions
-          involving our student lives, or even just to event themes. From my
-          experience leading a club since freshman year, creating websites to
-          better the student body, and my silver prestige in Hypixel's Bedwars,
-          I believe I've built up the skills over the years to successfully
-          manage our final year in our high school lives.
+          Welcome to the Stuyvesant High School Senior Caucus! We are the student government for the senior body (class of 2024) of Stuyvesant High School. We seek to connect with all seniors, providing guidance for the college app process, letting them have fun, and preparing them for the next chapter of their lives.
         </p>
 
         <div className="lg:block hidden absolute left-[75vw] top-[50%] -translate-x-1/2 -translate-y-1/2">
