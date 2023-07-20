@@ -1,6 +1,6 @@
 [
   {
-    "department": "Copresidents",
+    "department": "Co-Presidents",
     "members": [
       {
         "name": "Anthony Chen",
@@ -98,12 +98,6 @@
         "title": "Outreach Director",
         "bio": "One fun fact about me is that I can play guitar and am currently learning how to play ukelele, too!",
         "image": "/member_images/monica.jpeg"
-      },
-      {
-        "name": "Jovanna Wu",
-        "title": "Outreach Director",
-        "bio": "I love to watch all types of movies but I can never finish a show. ",
-        "image": "/member_images/jovanna.PNG"
       },
       {
         "name": "Donghyun Kang",

@@ -10,7 +10,7 @@ export default function Home() {
         className="w-screen h-[40vw] object-cover"
       />
 
-      <div className="relative lg:min-h-[500px] lg:pt-[70px] pt-0">
+      <div className="relative left-[2vw] lg:min-h-[500px] lg:pt-[70px] pt-0">
         <img
           src="/about_us_background.svg"
           className="absolute drop-shadow-lg lg:w-[544px] w-[300px] lg:h-[45px] h-[35px] lg:top-[115px] top-[45px] lg:left-[23vw] left-[50vw] -translate-y-1/2 -translate-x-1/2"
@@ -21,13 +21,17 @@ export default function Home() {
 
         <p
           className="
-        lg:pl-[5vw] px-[8vw] lg:w-[50vw] w-screen pt-[80px] pb-[30px]
-        text-center text-[#3F3194] lg:text-[20px] text-[15px]"
+        lg:pl-[calc(23vw-275px)] px-[8vw] lg:w-[50vw] w-screen pt-[80px] pb-[30px]
+        lg:text-left text-center text-[#3F3194] lg:text-[20px] text-[15px]"
         >
-          Welcome to the Stuyvesant High School Senior Caucus! We are the student government for the senior body (class of 2024) of Stuyvesant High School. We seek to connect with all seniors, providing guidance for the college app process, letting them have fun, and preparing them for the next chapter of their lives.
+          Welcome to the Stuyvesant High School Senior Caucus! We are the
+          student government for the senior body (class of 2024) of Stuyvesant
+          High School. We seek to connect with all seniors, providing guidance
+          for the college app process, letting them have fun, and preparing them
+          for the next chapter of their lives.
         </p>
 
-        <div className="lg:block hidden absolute left-[75vw] top-[50%] -translate-x-1/2 -translate-y-1/2">
+        <div className="lg:block hidden absolute left-[70vw] top-[50%] -translate-x-1/2 -translate-y-1/2">
           <InstagramEmbed />
         </div>
       </div>
@@ -62,7 +66,11 @@ export default function Home() {
           <p className="text-center font-link text-[25px] text-[#45379D] underline mb-[15px]">
             Announcements
           </p>
-          <div className="bg-white ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]"></div>
+          <div className="bg-[#FDF4F2] relative ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
+            <p className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+              Stay tuned :)
+            </p>
+          </div>
         </div>
       </div>
     </div>
