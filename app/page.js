@@ -1,14 +1,12 @@
 import HorizontalRuling from "@/components/HorizontalRuling";
 import InstagramEmbed from "./InstagramEmbed";
 import styles from "./home.module.css";
+import HomepageCarousel from "./HomepageCarousel";
 
 export default function Home() {
   return (
     <div className="bg-[#FDF4F2]">
-      <img
-        src="/caucus_pictures/anthony-zidane-1.png"
-        className="w-screen h-[40vw] object-cover"
-      />
+      <HomepageCarousel />
 
       <div className="relative left-[2vw] lg:min-h-[500px] lg:pt-[70px] pt-0">
         <img
