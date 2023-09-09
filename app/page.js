@@ -2,6 +2,7 @@ import HorizontalRuling from "@/components/HorizontalRuling";
 import InstagramEmbed from "./InstagramEmbed";
 import styles from "./home.module.css";
 import HomepageCarousel from "./HomepageCarousel";
+import CalendarEmbed from "./CalendarEmbed";
 
 export default function Home() {
   return (
@@ -39,32 +40,26 @@ export default function Home() {
       </HorizontalRuling>
 
       <div
-        className={`flex justify-center items-center pt-[20px] pb-[45px] ${styles.striped_background}`}
+        className={`flex lg:flex-row flex-col justify-center items-center pt-[20px] pb-[45px] ${styles.striped_background}`}
       >
-        {/*
-        <div className="relative w-[50vw]">
-          <p className="text-center font-link text-[25px] text-[#45379D] underline mb-[15px]">
-            Announcements
-          </p>
-          <div className="bg-white ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl w-[45vw] h-[45vw]">
-            Announcement.
-          </div>
-        </div>
-
-        <div className="relative w-[50vw]">
-          <p className="text-center font-link text-[25px] text-[#45379D] underline mb-[15px]">
-            Calendar
-          </p>
-          <div className="bg-white ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl w-[45vw] h-[45vw]">
-            Calendar.
-          </div>
-        </div>*/}
-
         <div className="relative lg:w-[50vw] w-[72.5vw]">
           <p className="text-center font-link text-[25px] text-[#45379D] underline mb-[15px]">
             Announcements
           </p>
-          <div className="bg-[#FDF4F2] relative ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
+          <div className="bg-[#FDF4F2] relative lg:ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
+            <p className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[#45379D]">
+              Stay tuned :)
+            </p>
+          </div>
+        </div>
+
+        <div className="relative lg:w-[50vw] w-[72.5vw] lg:mt-0 mt-[20px]">
+          <p className="text-center font-link text-[25px] lg:text-[#45379D] text-[#E5D6FF] underline mb-[15px]">
+            Calendar
+          </p>
+          <div className="bg-[#FDF4F2] relative lg:ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
+            {/*<CalendarEmbed />*/}
+
             <p className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[#45379D]">
               Stay tuned :)
             </p>

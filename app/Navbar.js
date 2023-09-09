@@ -14,7 +14,7 @@ export default function Navbar() {
         lg:w-[60px] w-[35px]
         lg:h-[60px] h-[35px]
         lg:top-[41px] top-[24px]
-        left-[11px]
+        lg:left-[25px] left-[11px]
         -translate-y-1/2"
       />
 

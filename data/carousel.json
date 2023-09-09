@@ -1,4 +1,18 @@
 [
-  {"image": "/carousel/college-tour-1.jpg", "desc": "UPenn + Princeton College Tour"},
-  {"image": "/carousel/college-tour-2.jpg", "desc": "UPenn + Princeton College Tour"}
+  {
+    "image": "/carousel/college-tour-1.jpg",
+    "desc": "UPenn + Princeton College Tour"
+  },
+  {
+    "image": "/carousel/college-tour-2.jpg",
+    "desc": "UPenn + Princeton College Tour"
+  },
+  {
+    "image": "/carousel/senior-sunrise-1.png",
+    "desc": "Senior Sunrise 2023"
+  },
+  {
+    "image": "/carousel/senior-sunrise-2.png",
+    "desc": "Senior Sunrise 2023"
+  }
 ]
