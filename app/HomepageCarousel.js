@@ -11,7 +11,7 @@ export default function HomepageCarousel() {
       {slides.map((slide, i) => (
         <div key={i}>
           <img src={slide.image} className="h-[40vw]" />
-          <p className="legend">{slide.desc}</p>
+          {/*<p className="legend">{slide.desc}</p>*/}
         </div>
       ))}
     </Carousel>
