@@ -41,6 +41,24 @@
         "title": "IT Director",
         "bio": "Mr. Ramirez is my personal hero.",
         "image": "/member_images/simon.jpeg"
+      },
+      {
+        "name": "Richard Wan",
+        "title": "Member of IT",
+        "bio": "One hobby I have is rollerblading.",
+        "image": "/member_images/richardw.jpg"
+      },
+      {
+        "name": "Ben Nudelman",
+        "title": "Member of IT",
+        "bio": "I enjoy playing tennis and going to the gym.",
+        "image": "/member_images/benn.jpg"
+      },
+      {
+        "name": "Hui Wen Wang",
+        "title": "Member of IT",
+        "bio": "I was born and raised on a fishing island!",
+        "image": "/member_images/huiww.jpg"
       }
     ]
   },
@@ -64,6 +82,36 @@
         "title": "Director of Video Editing",
         "bio": "I once fell into a hair crisis and it got to the point where I had to cover it up with a beanie every day for the second half of sophomore year.",
         "image": "/member_images/rabab.jpeg"
+      },
+      {
+        "name": "Yuri Wang",
+        "title": "Member of Graphic Design",
+        "bio": "I enjoy eating cereal with apple juice.",
+        "image": "/member_images/yuriw.jpeg"
+      },
+      {
+        "name": "Emily He",
+        "title": "Member of Graphic Design",
+        "bio": "A fun fact about me is that I have rewatched gravity falls 5 times.",
+        "image": "/member_images/emilyh.PNG"
+      },
+      {
+        "name": "Intia Ibnah",
+        "title": "Member of Graphic Design",
+        "bio": "I have six succulents and they all live on my windowsill.",
+        "image": "/member_images/intiai.png"
+      },
+      {
+        "name": "Karen Chen",
+        "title": "Member of Video Editing",
+        "bio": "Fun Fact: I can play 4 instruments: recorder, flute, guitar (classical and acoustic), and piano ",
+        "image": "/member_images/karenchen.jpg"
+      },
+      {
+        "name": "Vanessa Huang",
+        "title": "Member of Video Editing",
+        "bio": "i have a 16,879,842 point high score on subway surfers",
+        "image": "/member_images/vanessah.jpg"
       }
     ]
   },
@@ -87,6 +135,18 @@
         "title": "Events Director",
         "bio": "I like to make music🎵",
         "image": "/member_images/sriniti.jpg"
+      },
+      {
+        "name": "Iris Lin",
+        "title": "Member of Events",
+        "bio": "Experienced (board) gamer and intermediate spicy-food eater. Looking forward to making the most out of my senior year!",
+        "image": "/member_images/irisl.JPG"
+      },
+      {
+        "name": "Ihsaan Alam",
+        "title": "Member of Events",
+        "bio": "Fun Fact: I have a 27-year-old Amazon parrot named Monnie.",
+        "image": "/member_images/ihsaana.jpeg"
       }
     ]
   },
@@ -110,6 +170,24 @@
         "title": "Outreach Director",
         "bio": "I got malaria five times. I am excited to socialize more my friends and enjoy the last year of school. Watching movies, going to shows & concerts ",
         "image": "/member_images/donghyun.jpg"
+      },
+      {
+        "name": "Yen Lam",
+        "title": "Member of Outreach",
+        "bio": "I really like to read.",
+        "image": "/member_images/yenl.jpg"
+      },
+      {
+        "name": "Sumama Haque",
+        "title": "Member of Outreach",
+        "bio": "I love motorsport. ",
+        "image": "/member_images/sumamah.jpg"
+      },
+      {
+        "name": "Crystal Yang",
+        "title": "Member of Outreach",
+        "bio": "I like cats a lot",
+        "image": "/member_images/crystaly.jpg"
       }
     ]
   },
@@ -133,6 +211,18 @@
         "title": "Finance Director",
         "bio": "My favorite show is The Office!",
         "image": "/member_images/gordon.jpeg"
+      },
+      {
+        "name": "Aaron Halder",
+        "title": "Member of Finance",
+        "bio": "I'm ambidextrous!",
+        "image": "/member_images/aaronh.jpg"
+      },
+      {
+        "name": "Samuel Chen",
+        "title": "Member of Finance",
+        "bio": "I really like clams and bibimbap.",
+        "image": "/member_images/samuelc.jpg"
       }
     ]
   },
@@ -156,6 +246,48 @@
         "title": "Internals Director",
         "bio": "I am really excited for the upcoming girls soccer season.",
         "image": "/member_images/mia.png"
+      },
+      {
+        "name": "Karen Chen",
+        "title": "Member of Internals",
+        "bio": "I really like penguins :).",
+        "image": "/member_images/karenc.jpg"
+      },
+      {
+        "name": "Elaine Huan",
+        "title": "Member of Internals",
+        "bio": "The blurry pink thing in this blurry picture is my childhood bike (I fell multiple times).",
+        "image": "/member_images/elaineh.png"
+      },
+      {
+        "name": "Raymond Wang",
+        "title": "Member of Internals",
+        "bio": "I spend way too much time watching kdramas and cdramas.",
+        "image": "/member_images/raymondw.PNG"
+      },
+      {
+        "name": "Jason Chu",
+        "title": "Member of Internals",
+        "bio": "My favorite hobby right now is hiking; it is really fun especially with close friends or family.",
+        "image": "/member_images/jasonc.jpg"
+      },
+      {
+        "name": "Andrew-Rafael Said",
+        "title": "Member of Internals",
+        "bio": "My favorite subject is science and I am a black belt in taekwondo",
+        "image": "/member_images/andrews.jpg"
+      },
+      {
+        "name": "Shreya Das",
+        "title": "Member of Internals",
+        "bio": "I have played through the entire Papa’s Pizzeria franchise.",
+        "image": "/member_images/shreyad.jpeg"
+      },
+      {
+        "name": "Kate Bondarenko",
+        "title": "Member of Internals",
+        "bio": "I'm on the Girls Tennis Team, go Lady Lobsters!",
+        "image": "/member_images/kateb.jpeg"
       }
     ]
   }
