@@ -7,7 +7,7 @@ function getScholarships() {
   for (let i = 0; i < scholarships.length; i += 2) {
     arr.push({
       title: scholarships[i],
-      desc: scholarships[i + 1]
+      desc: scholarships[i + 1],
     });
   }
 
@@ -33,7 +33,9 @@ export default function Opportunities() {
             </div>
           </HorizontalRuling>
 
-          <p className="text-[15px] text-[#45379D] px-[50px] pt-[40px]">{opp.desc}</p>
+          <p className="whitespace-pre-line text-[15px] text-[#45379D] px-[50px] pt-[40px]">
+            {opp.desc}
+          </p>
         </div>
       ))}
     </div>
