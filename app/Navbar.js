@@ -48,6 +48,7 @@ export default function Navbar() {
 
         <a href="/">Home</a>
         <a href="/team">Team</a>
+        <a href="/opportunities">Opportunities</a>
       </div>
 
       {/*hamburger*/}
@@ -98,6 +99,10 @@ export default function Navbar() {
 
         <a href="/team" className="absolute top-[calc(48px+8vw)]">
           <div className="absolute top-[4vw]">Team</div>
+        </a>
+
+        <a href="/opportunities" className="absolute top-[calc(48px+16vw)]">
+          <div className="absolute top-[4vw]">Opportunities</div>
         </a>
       </div>
 
