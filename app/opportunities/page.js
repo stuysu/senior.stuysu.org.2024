@@ -33,7 +33,7 @@ export default function Opportunities() {
             </div>
           </HorizontalRuling>
 
-          <p className="whitespace-pre-line text-[15px] text-[#45379D] px-[50px] pt-[40px]">
+          <p className="whitespace-pre-line text-[15px] text-[#45379D] px-[50px] pt-[40px] lg:mx-[160px] mx-[0px]">
             {opp.desc}
           </p>
         </div>
