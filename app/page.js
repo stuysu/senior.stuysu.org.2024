@@ -48,7 +48,10 @@ export default function Home() {
           </p>
           <div className="bg-[#FDF4F2] relative lg:ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
             <p className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[#45379D]">
-              Stay tuned :)
+              <ul>
+                <li>&#8226;Senior portrait due October 31</li>
+                <li>&#8226;Senior quotes due November 4</li>
+              </ul>
             </p>
           </div>
         </div>
