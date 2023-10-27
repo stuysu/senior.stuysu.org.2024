@@ -1,21 +1,23 @@
 export default function MemberCard({ name, title, image, bio }) {
   return (
-    <div className="relative rounded-lg w-[310px] h-[370px] bg-[#FDF4F2] lg:mb-0 mb-[25px] text-[#45379D]">
-      <p className="absolute left-[15px] top-[15px] w-[280px] h-[280px] p-[10px] bg-[#FDF4F2] text-2xl font-bold">
-        {bio}
-      </p>
-
-      <div className="absolute w-[310px] h-[310px] overflow-hidden">
-        <img
-          className="rounded-t-lg object-cover hover:opacity-0"
-          src={image}
-        />
+    <div className='relative rounded-lg w-[310px] bg-[#FDF4F2] lg:mb-0 mb-[25px] text-[#45379D]'>
+      <div className='w-[310px] h-[310px] overflow-hidden'>
+        <img className='rounded-t-lg object-cover' src={image} />
       </div>
 
-      <div className="absolute left-[15px] top-[312px]">
-        <p className="font-bold underline text-[20px]">{name}</p>
-        <p className="text-[18px]">{title}</p>
+      <div className='group min-h-[60px]'>
+        <div className='mx-2'>
+          <p
+            data={name}
+            newData={bio}
+            className='font-bold underline group-hover:no-underline text-[20px] before:content-[attr(data)] group-hover:before:content-[attr(newData)]'
+          ></p>
+          <p
+            data={title}
+            className='text-[18px] before:content-[attr(data)] group-hover:before:content-[""]'
+          ></p>
+        </div>
       </div>
     </div>
-  );
+  )
 }
