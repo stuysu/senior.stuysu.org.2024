@@ -12,15 +12,15 @@ export default function Home() {
       <div className="relative left-[2vw] lg:min-h-[500px] lg:pt-[70px] pt-0">
         <img
           src="/about_us_background.svg"
-          className="absolute drop-shadow-lg lg:w-[544px] w-[300px] lg:h-[45px] h-[35px] lg:top-[115px] top-[45px] lg:left-[23vw] left-[50vw] -translate-y-1/2 -translate-x-1/2"
+          className="absolute drop-shadow-lg lg:w-[544px] w-[300px] lg:h-[45px] h-[35px] lg:top-[115px] top-[30px] lg:left-[23vw] left-[50vw] -translate-y-1/2 -translate-x-1/2"
         />
-        <p className="absolute font-link lg:text-[30px] text-[17px] text-[#45379D] underline lg:top-[115px] top-[45px] lg:left-[calc(23vw-180px)] left-[calc(50vw-90px)] -translate-y-1/2 -translate-x-1/2">
+        <p className="absolute font-link lg:text-[30px] text-[17px] text-[#45379D] underline lg:top-[115px] top-[30px] lg:left-[calc(23vw-180px)] left-[calc(50vw-90px)] -translate-y-1/2 -translate-x-1/2">
           About Us
         </p>
 
         <p
           className="
-        lg:pl-[calc(23vw-275px)] px-[8vw] lg:w-[50vw] w-screen pt-[80px] pb-[30px]
+        lg:pl-[calc(23vw-275px)] px-[8vw] lg:w-[50vw] w-screen lg:pt-[80px] pt-[50px] pb-[30px]
         lg:text-left text-center text-[#3F3194] lg:text-[20px] text-[15px]"
         >
           Welcome to the Stuyvesant High School Senior Caucus! We are the
