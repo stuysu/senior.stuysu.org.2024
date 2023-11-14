@@ -2,16 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {
+  :root {
+    --color-primary: 253 244 242;
+    --color-secondary: 75 56 187;
+    --color-text: 69 55 157;
+    --color-tertiary: 75 56 187;
+    --color-quaternary: 229 214 255;
+  }
+
+  :root[class~='dark'] {
+    --color-primary: 63 63 63;
+    --color-secondary: 90 74 131;
+    --color-text: 255 255 255;
+    --color-tertiary: 55 46 76;
+    --color-quaternary: 113 113 113;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .striped_background {
+    background: linear-gradient(
+      10deg,
+      #e5d6ff,
+      #e5d6ff 37.5%,
+      #a193f2 37.6%,
+      #a193f2 42.5%,
+      #3f3194 42.6%,
+      #3f3194 57.5%,
+      #a193f2 57.6%,
+      #a193f2 62.5%,
+      #e5d6ff 62.6%,
+      #e5d6ff
+    );
+  }
+
+  .dark .striped_background {
+    background: linear-gradient(
+      10deg,
+      #1a202c,
+      #1a202c 37.5%,
+      #4a5568 37.6%,
+      #4a5568 42.5%,
+      #718096 42.6%,
+      #718096 57.5%,
+      #4a5568 57.6%,
+      #4a5568 62.5%,
+      #1a202c 62.6%,
+      #1a202c
+    );
+  }
+
+  .background {
+    background: linear-gradient(47deg, #c7b7f5 55%, #a193f2 45%);
+  }
+
+  .dark .background {
+    background: linear-gradient(47deg, #1a202c 55%, #4a5568 45%);
   }
 }

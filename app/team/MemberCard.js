@@ -1,6 +1,6 @@
 export default function MemberCard({ name, title, image, bio }) {
   return (
-    <div className="relative rounded-lg w-[310px] bg-[#FDF4F2] lg:mb-0 mb-[25px] text-[#45379D]">
+    <div className="relative rounded-lg w-[310px] bg-[#FDF4F2] lg:mb-0 mb-[25px] text-text">
       <div className="w-[310px] h-[310px] overflow-hidden">
         <img className="rounded-t-lg object-cover" src={image} />
       </div>
