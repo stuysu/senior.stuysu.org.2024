@@ -3,6 +3,7 @@ import InstagramEmbed from "./InstagramEmbed";
 import styles from "./home.module.css";
 import HomepageCarousel from "./HomepageCarousel";
 import CalendarEmbed from "./CalendarEmbed";
+import Announcements from "./Announcements";
 
 export default function Home() {
   return (
@@ -40,24 +41,27 @@ export default function Home() {
       </HorizontalRuling>
 
       <div
-        className={`flex lg:flex-row flex-col justify-center items-center pt-[20px] pb-[45px] ${styles.striped_background}`}
+        className={`flex lg:flex-row flex-col justify-center items-center pt-[60px] pb-[45px] ${styles.striped_background}`}
       >
-        <div className="relative lg:w-[50vw] w-[72.5vw]">
+        <div className="lg:relative lg:w-[50vw] w-[72.5vw] sm:mb-auto mb-[450px]">
           <p className="text-center font-link text-[25px] text-[#45379D] underline mb-[15px]">
             Announcements
           </p>
-          <div className="bg-[#FDF4F2] relative lg:ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
-            <p className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[#45379D]">
-              <ul>
-                <li>&#8226;Senior portrait due November 30</li>
-                <li>&#8226;Senior quotes due November 4</li>
-              </ul>
-            </p>
+          <div className="lg:ml-[2.5vw] lg:w-[45vw] lg:h-[45vw] w-[70vw]">
+            <Announcements />
+
+            <div
+              className="absolute left-1/2 -translate-x-1/2"
+              dangerouslySetInnerHTML={{
+                __html:
+                  '<iframe class="fundraising-widget" width="220px" height="484px" data-id="2804fa" data-url-key="stuyseniorhoodie" data-src="https://www.customink.com/fundraising/widgets/stuyseniorhoodie" data-utm-campaign="campaign-dashboard-embed-v1"></iframe> <script src="https://www.customink.com/fundraising/assets/campaign_widget/fundraising_widget.js"></script>',
+              }}
+            />
           </div>
         </div>
 
-        <div className="relative lg:w-[50vw] w-[72.5vw] lg:mt-0 mt-[20px]">
-          <p className="text-center font-link text-[25px] lg:text-[#45379D] text-[#E5D6FF] underline mb-[15px]">
+        <div className="lg:relative lg:w-[50vw] w-[72.5vw] lg:mt-0 mt-[50px]">
+          <p className="text-center font-link text-[25px] lg:text-[#45379D] text-[#a193f2] underline mb-[15px]">
             Calendar
           </p>
           <div className="bg-[#FDF4F2] relative lg:ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]">
