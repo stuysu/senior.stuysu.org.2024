@@ -61,12 +61,10 @@ export default function Home() {
           <p className="text-center font-link text-[25px] lg:text-text text-secondary underline mb-[15px]">
             Calendar
           </p>
-          <div className='bg-primary relative lg:ml-[2.5vw] border-black border-[1px] rounded-lg drop-shadow-2xl lg:w-[45vw] lg:h-[45vw] w-[70vw] h-[70vw]'>
-            {/*<CalendarEmbed />*/}
-
-            <p className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-text'>
-              Stay tuned :)
-            </p>
+          {/*  border-black  rounded-lg drop-shadow-2xl   w-[70vw] h-[70vw] */}
+          <div className='relative lg:ml-[2.5vw] lg:w-[45vw] lg:h-[45vw]'>
+            <CalendarEmbed />
+            <p style={{fontSize:"10px", textAlign:"right"}}>Updated: November 15, 2023</p>
           </div>
         </div>
       </div>
