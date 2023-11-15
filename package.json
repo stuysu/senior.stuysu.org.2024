@@ -10,6 +10,9 @@
     "prettier": "npx prettier . --write"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.9",
+    "@fullcalendar/daygrid": "^6.1.9",
+    "@fullcalendar/react": "^6.1.9",
     "autoprefixer": "10.4.14",
     "next": "13.4.9",
     "postcss": "8.4.25",
