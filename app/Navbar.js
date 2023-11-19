@@ -1,43 +1,43 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import { ThemeButton } from '@/components/ThemeButton'
+import { useState } from "react";
+import { ThemeButton } from "@/components/ThemeButton";
 
 export default function Navbar() {
-  let [hamburgerOpened, setHamburgerOpened] = useState(false)
+  let [hamburgerOpened, setHamburgerOpened] = useState(false);
 
   return (
-    <div className='bg-secondary lg:h-[82px] h-[48px] w-[screen] font-link lg:text-[20px] text-[14px]'>
+    <div className="bg-secondary lg:h-[82px] h-[48px] w-[screen] font-link lg:text-[20px] text-[14px]">
       <img
-        src='/caucus_logo_bw.png'
-        className='
+        src="/caucus_logo_bw.png"
+        className="
         absolute
         lg:w-[60px] w-[35px]
         lg:h-[60px] h-[35px]
         lg:top-[41px] top-[24px]
         lg:left-[25px] left-[11px]
-        -translate-y-1/2'
+        -translate-y-1/2"
       />
 
       <a
-        className='absolute text-[#FFFFFF]
+        className="absolute text-[#FFFFFF]
       lg:left-[110px] left-[50vw]
       lg:translate-x-0 -translate-x-1/2
       lg:top-[41px] top-[24px]
-      -translate-y-1/2 '
+      -translate-y-1/2 "
       >
         Stuyvesant Senior Caucus
       </a>
 
       {/*normal*/}
       <div
-        className='
+        className="
         lg:flex
         hidden
         
         absolute right-[35px] top-[41px] -translate-y-1/2
          
-        text-[#CCB1F8] child:ml-[35px]'
+        text-[#CCB1F8] child:ml-[35px]"
       >
         {/*<a>Announcements</a>
         <a>Resources</a>
@@ -45,15 +45,15 @@ export default function Navbar() {
         <a>Team</a>
         <a>Calendar</a>*/}
         <ThemeButton />
-        <a href='/'>Home</a>
-        <a href='/team'>Team</a>
-        <a href='/opportunities'>Opportunities</a>
+        <a href="/">Home</a>
+        <a href="/team">Team</a>
+        <a href="/opportunities">Opportunities</a>
       </div>
 
       {/*hamburger*/}
       <div
         aria-checked={hamburgerOpened}
-        className='
+        className="
         lg:hidden
         flex flex-col
 
@@ -68,7 +68,7 @@ export default function Navbar() {
 
         child:h-[8vw] child:w-screen child:bg-tertiary child-hover:bg-tertiary child:drop-shadow
         
-        child:child:left-[50vw] child:child:-translate-x-1/2 child:child:-translate-y-1/2'
+        child:child:left-[50vw] child:child:-translate-x-1/2 child:child:-translate-y-1/2"
       >
         {/*<div>
           <a>Announcements</a>
@@ -92,30 +92,30 @@ export default function Navbar() {
         <a>Team</a>
         <a>Calendar</a>*/}
 
-        <a href='/' className='absolute top-[48px]'>
-          <div className='absolute top-[4vw] text-[#FFFFFF]'>Home</div>
+        <a href="/" className="absolute top-[48px]">
+          <div className="absolute top-[4vw] text-[#FFFFFF]">Home</div>
         </a>
 
-        <a href='/team' className='absolute top-[calc(48px+8vw)]'>
-          <div className='absolute top-[4vw] text-[#FFFFFF]'>Team</div>
+        <a href="/team" className="absolute top-[calc(48px+8vw)]">
+          <div className="absolute top-[4vw] text-[#FFFFFF]">Team</div>
         </a>
 
-        <a href='/opportunities' className='absolute top-[calc(48px+16vw)]'>
-          <div className='absolute top-[4vw] text-[#FFFFFF]'>Opportunities</div>
+        <a href="/opportunities" className="absolute top-[calc(48px+16vw)]">
+          <div className="absolute top-[4vw] text-[#FFFFFF]">Opportunities</div>
         </a>
       </div>
 
       <div
-        className='lg:hidden absolute block w-[24px] h-[24px]
-        top-[24px] right-[55px] -translate-y-1/2'
+        className="lg:hidden absolute block w-[24px] h-[24px]
+        top-[24px] right-[55px] -translate-y-1/2"
       >
         <ThemeButton />
       </div>
 
       <img
-        src='/icons/hamburger.svg'
+        src="/icons/hamburger.svg"
         aria-checked={hamburgerOpened}
-        className='
+        className="
         lg:hidden block
         absolute
         w-[24px] h-[24px]
@@ -124,11 +124,11 @@ export default function Navbar() {
         rotate-0 aria-checked:rotate-90
         transition-transform ease-out duration-[300ms]
         
-        invert'
+        invert"
         onClick={() => {
-          setHamburgerOpened(!hamburgerOpened)
+          setHamburgerOpened(!hamburgerOpened);
         }}
       />
     </div>
-  )
+  );
 }

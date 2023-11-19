@@ -11,7 +11,7 @@
     --color-quaternary: 229 214 255;
   }
 
-  :root[class~='dark'] {
+  :root[class~="dark"] {
     --color-primary: 63 63 63;
     --color-secondary: 90 74 131;
     --color-text: 255 255 255;

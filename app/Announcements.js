@@ -8,15 +8,17 @@ export default function Announcements() {
           className="bg-[rgb(253,244,242)] my-[15px] p-[15px] border-black border-[1px] rounded-sm flex relative"
           key={i}
         >
-          {/*desktop*/}{" "}
+          {/*desktop*/}
           <p className="sm:block hidden text-[#45379D] underline text-[20px] absolute left-1/2 -translate-x-1/2 top-4">
             {title}
           </p>
-          {/*mobile*/}{" "}
+          {/*mobile*/}
           <p className="sm:hidden block text-[#45379D] underline text-[20px] absolute left-4 top-6">
             {title}
           </p>
+
           <p className="text-stone-400 absolute top-2 right-2">{date}</p>
+
           <ul className="mt-10">
             {text.split("\n").map((section, i) => (
               <li key={i}>
