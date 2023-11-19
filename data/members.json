@@ -53,6 +53,12 @@
         "title": "Member of IT",
         "bio": "I enjoy playing tennis and going to the gym.",
         "image": "/member_images/benn.jpg"
+      },
+      {
+        "name": "Hui Wen Wang",
+        "title": "Member of IT",
+        "bio": "I was born and raised on a fishing island!",
+        "image": "/member_images/huiww.jpg"
       }
     ]
   },
@@ -276,12 +282,6 @@
         "title": "Member of Internals",
         "bio": "I have played through the entire Papa’s Pizzeria franchise.",
         "image": "/member_images/shreyad.jpeg"
-      },
-      {
-        "name": "Kate Bondarenko",
-        "title": "Member of Internals",
-        "bio": "I'm on the Girls Tennis Team, go Lady Lobsters!",
-        "image": "/member_images/kateb.jpeg"
       }
     ]
   }

@@ -9,6 +9,7 @@
     --color-text: 69 55 157;
     --color-tertiary: 75 56 187;
     --color-quaternary: 229 214 255;
+    --fc-border-color: #a193f2;
   }
 
   :root[class~="dark"] {
@@ -60,4 +61,28 @@
   .dark .background {
     background: linear-gradient(47deg, #1a202c 55%, #4a5568 45%);
   }
+}
+
+.fc {
+  padding: 15px;
+  background-color: rgb(253 244 242);
+  border-color: black;
+  border-width: 1px;
+}
+
+.fc-event {
+  white-space: normal !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.5em;
+}
+
+.fc-day-today {
+  background: #ece2fe !important;
+}
+
+.fc-prev-button,
+.fc-next-button {
+  background-color: #3f3194 !important;
+  background-image: none;
 }
