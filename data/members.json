@@ -230,6 +230,12 @@
         "image": "/member_images/elaine.jpg"
       },
       {
+        "name": "Mia Haas",
+        "title": "Internals Director",
+        "bio": "I am really excited for the upcoming girls soccer season.",
+        "image": "/member_images/mia.png"
+      },
+      {
         "name": "Karen Chen",
         "title": "Member of Internals",
         "bio": "I really like penguins :).",
