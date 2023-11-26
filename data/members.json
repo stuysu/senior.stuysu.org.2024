@@ -211,12 +211,6 @@
         "title": "Member of Finance",
         "bio": "I'm ambidextrous!",
         "image": "/member_images/aaronh.jpg"
-      },
-      {
-        "name": "Samuel Chen",
-        "title": "Member of Finance",
-        "bio": "I really like clams and bibimbap.",
-        "image": "/member_images/samuelc.jpg"
       }
     ]
   },
@@ -234,12 +228,6 @@
         "title": "Internals Director",
         "bio": "One fun fact about me is that I have a cat named spinach.",
         "image": "/member_images/elaine.jpg"
-      },
-      {
-        "name": "Mia Haas",
-        "title": "Internals Director",
-        "bio": "I am really excited for the upcoming girls soccer season.",
-        "image": "/member_images/mia.png"
       },
       {
         "name": "Karen Chen",
