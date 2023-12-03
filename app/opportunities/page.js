@@ -19,7 +19,7 @@ export default function Opportunities() {
             </div>
           </HorizontalRuling>
 
-          <div className="w-[200vw]">
+          <div className="w-[100vw]">
             <p className="whitespace-pre-line text-[15px] text-text pt-[40px] ml-[50vw] -translate-x-1/2 max-w-[calc(min(600px,90vw))]">
               {s["Info"]}
             </p>

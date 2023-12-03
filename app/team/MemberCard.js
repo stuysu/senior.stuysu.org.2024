@@ -1,16 +1,16 @@
 export default function MemberCard({ name, title, image, bio }) {
   return (
-    <div className='relative rounded-lg w-[310px] bg-primary lg:mb-0 mb-[25px] text-text'>
-      <div className='w-[310px] h-[310px] overflow-hidden'>
-        <img className='rounded-t-lg object-cover' src={image} />
+    <div className="relative rounded-lg w-[310px] bg-primary lg:mb-0 mb-[25px] text-text">
+      <div className="w-[310px] h-[310px] overflow-hidden">
+        <img className="rounded-t-lg object-cover" src={image} />
       </div>
 
-      <div className='group min-h-[60px]'>
-        <div className='mx-2'>
+      <div className="group min-h-[60px]">
+        <div className="mx-2">
           <p
             data={name}
             bio={bio}
-            className='font-bold underline group-hover:no-underline text-[20px] before:content-[attr(data)] group-hover:before:content-[attr(bio)]'
+            className="font-bold underline group-hover:no-underline text-[20px] before:content-[attr(data)] group-hover:before:content-[attr(bio)]"
           ></p>
           <p
             data={title}
@@ -19,5 +19,5 @@ export default function MemberCard({ name, title, image, bio }) {
         </div>
       </div>
     </div>
-  )
+  );
 }

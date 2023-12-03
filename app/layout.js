@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-x-clip`}>
         <ThemeProvider>
           <Navbar />
           {children}
