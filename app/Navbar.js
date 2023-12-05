@@ -48,7 +48,7 @@ export default function Navbar() {
         <a href="/">Home</a>
         <a href="/team">Team</a>
         <a href="/opportunities">Opportunities</a>
-        <a href="https://docs.google.com/document/d/1ltKbFo0SDqg417J16mmhc8D6DiNpYxOr6op9mmxx0aA/edit?usp=sharing">Course Selection Guide</a>
+        <a href="/courses">Course Selection Guide</a>
       </div>
 
       {/*hamburger*/}
@@ -105,8 +105,10 @@ export default function Navbar() {
           <div className="absolute top-[4vw] text-[#FFFFFF]">Opportunities</div>
         </a>
 
-        <a href="https://docs.google.com/document/d/1ltKbFo0SDqg417J16mmhc8D6DiNpYxOr6op9mmxx0aA/edit?usp=sharing" className="absolute top-[calc(48px+24vw)]">
-          <div className="absolute top-[4vw] text-[#FFFFFF]">Course Selection Guide</div>
+        <a href="/courses" className="absolute top-[calc(48px+24vw)]">
+          <div className="absolute top-[4vw] text-[#FFFFFF]">
+            Course Selection Guide
+          </div>
         </a>
       </div>
 
