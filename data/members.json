@@ -11,7 +11,7 @@
       {
         "name": "Zidane Karim",
         "title": "President",
-        "bio": "I am really excited to play Marvel Snap with Mr. Chew!",
+        "bio": "I love Reese's Puffs!",
         "image": "/member_images/zidane.jpeg"
       }
     ]
@@ -30,35 +30,6 @@
         "title": "Chief of Staff",
         "bio": "I could spend hours looking at pictures of views and the sky. ",
         "image": "/member_images/mehruba.jpg"
-      }
-    ]
-  },
-  {
-    "department": "IT",
-    "members": [
-      {
-        "name": "Simon Shkolnik",
-        "title": "IT Director",
-        "bio": "Mr. Ramirez is my personal hero.",
-        "image": "/member_images/simon.jpeg"
-      },
-      {
-        "name": "Richard Wan",
-        "title": "Member of IT",
-        "bio": "One hobby I have is rollerblading.",
-        "image": "/member_images/richardw.jpg"
-      },
-      {
-        "name": "Ben Nudelman",
-        "title": "Member of IT",
-        "bio": "I enjoy playing tennis and going to the gym.",
-        "image": "/member_images/benn.jpg"
-      },
-      {
-        "name": "Hui Wen Wang",
-        "title": "Member of IT",
-        "bio": "I was born and raised on a fishing island!",
-        "image": "/member_images/huiww.jpg"
       }
     ]
   },
@@ -88,12 +59,6 @@
         "title": "Member of Graphic Design",
         "bio": "I enjoy eating cereal with apple juice.",
         "image": "/member_images/yuriw.jpeg"
-      },
-      {
-        "name": "Emily He",
-        "title": "Member of Graphic Design",
-        "bio": "A fun fact about me is that I have rewatched gravity falls 5 times.",
-        "image": "/member_images/emilyh.PNG"
       },
       {
         "name": "Intia Ibnah",
@@ -154,28 +119,10 @@
         "image": "/member_images/monica.jpeg"
       },
       {
-        "name": "Jovanna Wu",
-        "title": "Outreach Director",
-        "bio": "I love to watch all types of movies but I can never finish a show. ",
-        "image": "/member_images/jovanna.png"
-      },
-      {
         "name": "Donghyun Kang",
         "title": "Outreach Director",
         "bio": "I got malaria five times. I am excited to socialize more my friends and enjoy the last year of school. Watching movies, going to shows & concerts ",
         "image": "/member_images/donghyun.jpg"
-      },
-      {
-        "name": "Yen Lam",
-        "title": "Member of Outreach",
-        "bio": "I really like to read.",
-        "image": "/member_images/yenl.jpg"
-      },
-      {
-        "name": "Sumama Haque",
-        "title": "Member of Outreach",
-        "bio": "I love motorsport. ",
-        "image": "/member_images/sumamah.jpg"
       },
       {
         "name": "Crystal Yang",
